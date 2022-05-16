@@ -6,6 +6,7 @@ x = datetime.datetime.now()
 
 print('Twitter bot active', flush=True)
 
+#API Keys go here
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
 ACCESS_KEY = ""
@@ -107,7 +108,8 @@ def pitcher (probable):
         return pitcher_ryu()
     else:
         print ("error")
-
+        
+#pitcher is hard-coded in this version, will be improved
 probable = "kikuchi"
 
 while True:
